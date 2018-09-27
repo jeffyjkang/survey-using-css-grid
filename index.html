@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="title">survey</header>
+    <div class="container">
+        <h1>This is a survery to see which hogwarts house you belong in</h1>
+        <div class="form-container">
+            <form class="form-div" action="">
+                <div class="name-div">
+                    <label class="name-label" for="name">Name:</label>
+                    <input class="name-input" name="name" type="text" placeholder="Enter your name">
+                </div>
+                <div class="email-div">
+                    <label class="email-label" for="email">Email:</label>
+                    <input class="email-input" name="email" type="email" placeholder="Enter your email">
+                </div>
+                <div class="age-div">
+                    <label class="age-label" for="age">Age:</label>
+                    <input class="age-input" name="age" type="number" placeholder="Enter your age">
+                </div>
+            </form>
+        </div>
+        <div class="dropdown-conatiner">
+            <label for="dropdown">What house would you like to be in</label>
+            <select name="dropdown" id="dropdown-selector">
+                <option disabled selected>Select an option</option>
+                <option value="gryffindor">Gryffindor</option>
+                <option value="hufflepuff">Hufflepuff</option>
+                <option value="ravenclaw">Ravenclaw</option>
+                <option value="slytherin">Slytherin</option>
+            </select>
+        </div>
+        <div class="radio-container">
+            <label for="radio-buttons">What quidditch position are you</label>
+            <ul style="list-style: none">
+                <li> <input class="radio-input" type="radio" value="chaser" name="radio-buttons"> Chaser </li>
+                <li> <input class="radio-input" type="radio" value="beater" name="radio-buttons"> Beater </li>
+                <li> <input class="radio-input" type="radio" value="keeper" name="radio-buttons"> Keeper </li>
+                <li> <input class="radio-input" type="radio" value="seeker" name="radio-buttons"> Seeker </li>
+            </ul>
+        </div>
+        <div class="selector-container">
+            <label for="selector">What subjects do you enjoy, select all that apply</label>
+            <select name="selector" id="seclect-selector" size="8" multiple>
+                <option value="astronomy">Astronomy</option>
+                <option value="charms">Charms</option>
+                <option value="defense">Defense against the dark arts</option>
+                <option value="flying">Flying</option>
+                <option value="herbology">Herbology</option>
+                <option value="history">History of magic</option>
+                <option value="potions">Potions</option>
+                <option value="transfiguration">Transfiguration</option>
+            </select>
+        </div>
+        <div class="checkbox-container">
+            <label for="checkbox-choice">What subjects would you like to specialize in, select all that apply</label>
+            <ul style="list-style: none">
+                <li> Arithmancy <input class="checkbox-input" type="checkbox" value="arithmancy" name="checkbox-choice">
+                </li>
+                <li> Care of magical creatures <input class="checkbox-input" type="checkbox" value="care" name="checkbox-choice">
+                </li>
+                <li> Divination <input class="checkbox-input" type="checkbox" value="divination" name="checkbox-choice">
+                </li>
+                <li> Study of ancient runes <input class="checkbox-input" type="checkbox" value="study" name="checkbox-choice">
+                </li>
+                <li> Alchemy <input class="checkbox-input" type="checkbox" value="alchemy" name="checkbox-choice">
+                </li>
+                <li> Ancient studies <input class="checkbox-input" type="checkbox" value="ancient" name="checkbox-choice">
+                </li>
+                <li> Apparition <input class="checkbox-input" type="checkbox" value="apparition" name="checkbox-choice">
+                </li>
+                <li> Magical theory <input class="checkbox-input" type="checkbox" value="magical" name="checkbox-choice">
+                </li>
+            </ul>
+        </div>
+        <div class="textarea-container">
+            <label for="textarea-block">Write out your favorite spells or incantations</label>
+            <textarea name="textarea-block" id="textarea-id" cols="30" rows="10" placeholder="Enter your magic here..."></textarea>
+        </div>
+        <div class="submit-container">
+            <button class="submit-button" type="submit">Submit</button>
+        </div>
+    </div>
+    <footer class="end">End of survey</footer>
+</body>
+
+</html>
