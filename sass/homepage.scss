@@ -1,12 +1,148 @@
 //hompage
 
 // header
-
+body {
+  max-width: 1650px;
+  @include center;
+  font-size: 62.5%;
+  display: grid;
+  // grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr;
+}
 .title {
   @include border;
-}
-.container {
-  @include border;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: $olive-green;
 }
 
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  @include border;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  padding: 1rem;
+  .sub-title {
+    @include secondBorder;
+    background-color: $pink-lemonade;
+    font-size: 1.6rem;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 10%;
+  }
+  .form-container {
+    background-color: $sky-blue;
+    @include secondBorder;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    .form-div {
+      .name-div {
+        .name-label {
+          font-size: 1.6rem;
+        }
+        .name-input {
+          color: $seville-orange;
+          background: $deep-turquoise;
+        }
+      }
+      .email-div {
+        .email-label {
+          font-size: 1.6rem;
+        }
+        .email-input {
+          color: $seville-orange;
+          background: $deep-turquoise;
+        }
+      }
+      .age-div {
+        .age-label {
+          font-size: 1.6rem;
+        }
+        .age-input {
+          color: $seville-orange;
+          background: $deep-turquoise;
+        }
+      }
+    }
+  }
+
+  .dropdown-container {
+    background-color: $baby-blue;
+    @include secondBorder;
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 1.6rem;
+    .dropdown-box {
+      background-color: $deep-turquoise;
+    }
+  }
+  .radio-container {
+    background-color: $mint-green;
+    @include secondBorder;
+    font-size: $font;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+  .selector-container {
+    background-color: $pink-lemonade;
+    @include secondBorder;
+    font-size: $font;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    .selector-box {
+      background-color: $deep-turquoise;
+    }
+  }
+  .checkbox-container {
+    background-color: $sky-blue;
+    @include secondBorder;
+    font-size: $font;
+    padding: 0.5rem;
+    .check-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-flow: row;
+      padding: 1rem;
+      grid-row-gap: 1rem;
+    }
+  }
+  .textarea-container {
+    background-color: $baby-blue;
+    @include secondBorder;
+    font-size: $font;
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .submit-container {
+    background-color: $mint-green;
+    @include secondBorder;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    .submit-button {
+      font-size: 2.5rem;
+    }
+  }
+}
+.end {
+  @include border;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: $olive-green;
+}
 //container

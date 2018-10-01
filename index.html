@@ -10,9 +10,9 @@
 </head>
 
 <body>
-    <header class="title">survey</header>
+    <header class="title">Survey</header>
     <div class="container">
-        <h1>This is a survery to see which hogwarts house you belong in</h1>
+        <h1 class="sub-title">This is a survery to see which hogwarts house you belong in</h1>
         <div class="form-container">
             <form class="form-div" action="">
                 <div class="name-div">
@@ -29,9 +29,9 @@
                 </div>
             </form>
         </div>
-        <div class="dropdown-conatiner">
+        <div class="dropdown-container">
             <label for="dropdown">What house would you like to be in</label>
-            <select name="dropdown" id="dropdown-selector">
+            <select class="dropdown-box" name="dropdown" id="dropdown-selector">
                 <option disabled selected>Select an option</option>
                 <option value="gryffindor">Gryffindor</option>
                 <option value="hufflepuff">Hufflepuff</option>
@@ -50,7 +50,7 @@
         </div>
         <div class="selector-container">
             <label for="selector">What subjects do you enjoy, select all that apply</label>
-            <select name="selector" id="seclect-selector" size="8" multiple>
+            <select class="selector-box" name="selector" id="seclect-selector" size="8" multiple>
                 <option value="astronomy">Astronomy</option>
                 <option value="charms">Charms</option>
                 <option value="defense">Defense against the dark arts</option>
@@ -63,7 +63,7 @@
         </div>
         <div class="checkbox-container">
             <label for="checkbox-choice">What subjects would you like to specialize in, select all that apply</label>
-            <ul style="list-style: none">
+            <ul class="check-list" style="list-style: none">
                 <li> Arithmancy <input class="checkbox-input" type="checkbox" value="arithmancy" name="checkbox-choice">
                 </li>
                 <li> Care of magical creatures <input class="checkbox-input" type="checkbox" value="care" name="checkbox-choice">
