@@ -49,8 +49,8 @@ body {
           font-size: 1.6rem;
         }
         .name-input {
-          color: $seville-orange;
-          background: $deep-turquoise;
+          background: $seville-orange;
+          color: $wine-red;
         }
       }
       .email-div {
@@ -58,8 +58,8 @@ body {
           font-size: 1.6rem;
         }
         .email-input {
-          color: $seville-orange;
-          background: $deep-turquoise;
+          background: $seville-orange;
+          color: $wine-red;
         }
       }
       .age-div {
@@ -67,8 +67,8 @@ body {
           font-size: 1.6rem;
         }
         .age-input {
-          color: $seville-orange;
-          background: $deep-turquoise;
+          background: $seville-orange;
+          color: $wine-red;
         }
       }
     }
@@ -124,6 +124,9 @@ body {
     display: grid;
     justify-content: center;
     padding: 1rem;
+    .text-box {
+      background-color: $seville-orange;
+    }
   }
   .submit-container {
     background-color: $mint-green;

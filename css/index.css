@@ -183,22 +183,22 @@ body {
   font-size: 1.6rem;
 }
 .container .form-container .form-div .name-div .name-input {
-  color: #ffb100;
-  background: #6799a3;
+  background: #ffb100;
+  color: #7b1842;
 }
 .container .form-container .form-div .email-div .email-label {
   font-size: 1.6rem;
 }
 .container .form-container .form-div .email-div .email-input {
-  color: #ffb100;
-  background: #6799a3;
+  background: #ffb100;
+  color: #7b1842;
 }
 .container .form-container .form-div .age-div .age-label {
   font-size: 1.6rem;
 }
 .container .form-container .form-div .age-div .age-input {
-  color: #ffb100;
-  background: #6799a3;
+  background: #ffb100;
+  color: #7b1842;
 }
 .container .dropdown-container {
   background-color: #cbeaeb;
@@ -250,6 +250,9 @@ body {
   display: grid;
   justify-content: center;
   padding: 1rem;
+}
+.container .textarea-container .text-box {
+  background-color: #ffb100;
 }
 .container .submit-container {
   background-color: #aee0c5;
