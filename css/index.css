@@ -152,6 +152,11 @@ body {
   font-weight: bold;
   background-color: #888551;
 }
+@media (max-width: 500px) {
+  .title {
+    background-color: #1f5846;
+  }
+}
 
 .container {
   box-sizing: border-box;
@@ -171,6 +176,11 @@ body {
   text-align: center;
   vertical-align: center;
   padding-top: 10%;
+}
+@media (max-width: 500px) {
+  .container .sub-title {
+    padding-top: 50%;
+  }
 }
 .container .form-container {
   background-color: #93c4ef;
@@ -243,6 +253,12 @@ body {
   padding: 1rem;
   grid-row-gap: 1rem;
 }
+@media (max-width: 500px) {
+  .container .checkbox-container .check-list {
+    grid-template-columns: 1fr;
+    grid-row-gap: 0;
+  }
+}
 .container .textarea-container {
   background-color: #cbeaeb;
   border: 2.5px solid #1f5846;
@@ -273,6 +289,11 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   background-color: #888551;
+}
+@media (max-width: 500px) {
+  .end {
+    background-color: #1f5846;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

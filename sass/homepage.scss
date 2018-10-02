@@ -17,6 +17,9 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   background-color: $olive-green;
+  @include phone {
+    background-color: $forest-green;
+  }
 }
 
 .container {
@@ -36,6 +39,9 @@ body {
     text-align: center;
     vertical-align: center;
     padding-top: 10%;
+    @include phone {
+      padding-top: 50%;
+    }
   }
   .form-container {
     background-color: $sky-blue;
@@ -115,6 +121,10 @@ body {
       grid-auto-flow: row;
       padding: 1rem;
       grid-row-gap: 1rem;
+      @include phone {
+        grid-template-columns: 1fr;
+        grid-row-gap: 0;
+      }
     }
   }
   .textarea-container {
@@ -147,5 +157,8 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   background-color: $olive-green;
+  @include phone {
+    background-color: $forest-green;
+  }
 }
 //container

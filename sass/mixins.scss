@@ -9,3 +9,9 @@
 @mixin center {
   margin: 0 auto;
 }
+
+@mixin phone {
+  @media (max-width:#{$phone-breakpoint}) {
+    @content;
+  }
+}
